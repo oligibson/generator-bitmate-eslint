@@ -187,8 +187,8 @@ module.exports = bitmate.Base.extend({
     wiring() {
       if (this.options.client === 'angular1') {
         this.copyTemplate(
-          'src/.eslintrc.js',
-          '.eslintrc.js'
+          'client/.eslintrc.js',
+          'client/.eslintrc.js'
         );
       }
       if (this.options.modules === 'systemjs') {
