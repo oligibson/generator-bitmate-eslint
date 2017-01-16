@@ -5,9 +5,8 @@
   "main": "index.js",
   "author": "BitMate",
   "license": "UNICENSED",
-  "private": true,
   "dependencies": {
-    "bitmate-generator": "file:../bitmate-generator"
+    "bitmate-generator": "^1.0.0"
   },
   "devDependencies": {
     "ava": "^0.16.0",
@@ -43,5 +42,8 @@
   "scripts": {
     "test": "gulp test",
     "prepublish": "gulp prepublish"
+  },
+  "publishConfig": {
+    "registry": "http://sinopia.bitmate.io/"
   }
 }
