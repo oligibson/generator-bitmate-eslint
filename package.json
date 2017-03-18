@@ -1,12 +1,12 @@
 {
   "name": "generator-bitmate-eslint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "BitMate generator for handling ESLint config",
   "main": "index.js",
   "author": "BitMate",
   "license": "UNICENSED",
   "dependencies": {
-    "bitmate-generator": "^1.0.1"
+    "bitmate-generator": "^1.0.2"
   },
   "devDependencies": {
     "ava": "^0.16.0",
