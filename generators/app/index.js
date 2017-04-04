@@ -1,4 +1,4 @@
-const bitmate = require('bitmate-generator');
+const bitmate = require('@oligibson/bitmate-generator');
 
 module.exports = bitmate.Base.extend({
   configuring: {

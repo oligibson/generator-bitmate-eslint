@@ -1,6 +1,6 @@
 const test = require('ava');
 const _ = require('lodash');
-const Utils = require('bitmate-generator').TestUtils;
+const Utils = require('@oligibson/bitmate-generator').TestUtils;
 const u = require('../utils');
 
 let context;
