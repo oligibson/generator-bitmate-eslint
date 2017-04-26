@@ -7,7 +7,7 @@ const conf = require('../conf/gulp.conf');
 gulp.task('scripts', scripts);
 
 function scripts() {
-  return gulp.src(conf.path.client('**/*.js'))
+  return gulp.src([conf.path.client('**/*.js'), `!${conf.path.client('bower_components/**/*')}`])
     .pipe(eslint())
     .pipe(eslint.format())
     .pipe(browserSync.stream());
